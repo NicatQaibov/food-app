@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form button {
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  align-self: flex-end;
+  border-radius: 16px;
+  padding: 0.4rem 1.8rem;
+  border: none;
+  background-color: #c98474;
+}
+
+.form button:where(:hover, :focus-within) {
+  opacity: 0.95;
+}

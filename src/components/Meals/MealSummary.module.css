@@ -1,0 +1,29 @@
+.summary {
+  max-width: 45rem;
+  height: 15rem;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: rgb(240, 240, 240);
+  text-align: center;
+  background-color: #444;
+
+  margin-inline: auto;
+  margin-block-start: -8rem;
+
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+.summary p:not(:last-child) {
+  margin-bottom: 1rem;
+}
